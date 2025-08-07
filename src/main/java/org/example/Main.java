@@ -16,6 +16,8 @@ public class Main {
             sharedResource.addItem();
         });
 
+
+
         Thread consumerThread = new Thread(() -> {
             sharedResource.consumeItem();
         });
